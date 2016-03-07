@@ -36,7 +36,9 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     }
     
     @IBAction func goToEvent(sender: AnyObject) {
-        
+        if let url = NSURL(string: "nsmanchester://") {
+            extensionContext?.openURL(url, completionHandler: nil)
+        }
     }
     
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)) {
