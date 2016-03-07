@@ -1,0 +1,5 @@
+language: objective-c
+xcode_workspace: NSManchester.xcworkspace
+xcode_scheme: NSManchester
+osx_image: xcode6.4
+xcode_sdk: iphonesimulator
