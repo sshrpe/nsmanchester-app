@@ -12,6 +12,7 @@ import Foundation
 class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView?
+    @IBOutlet var versionLabel: UILabel?
     var menuOptions: Array<MenuOption>?
     
     // MARK: View lifecycle
@@ -21,6 +22,14 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.init(coder: aDecoder)
         
        NSNotificationCenter.defaultCenter().addObserver(self, selector: "reload:", name: NSMNetworkUpdateNotification, object: nil)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        if let shortVersionString = CFBundleGetMainBundle().shortVersionString() {
+            versionLabel?.text = NSLocalizedString("version ", comment: "") + shortVersionString;
+        }
     }
     
     override func viewWillAppear(animated: Bool) {
