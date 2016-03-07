@@ -1,5 +1,5 @@
-language: objective-c
+language: swift
 xcode_workspace: NSManchester.xcworkspace
 xcode_scheme: NSManchester
-osx_image: xcode6.4
+osx_image: xcode7.2
 xcode_sdk: iphonesimulator
