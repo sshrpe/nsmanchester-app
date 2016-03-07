@@ -33,6 +33,7 @@
 		1EF1373D1C5D79A3004DD7AE /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1373C1C5D79A3004DD7AE /* EventViewController.swift */; };
 		32631A1EB6F85C5203CC0DF0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F49EDA28E70A2AF28C7164C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		539B32771C8E1A5B002681A0 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B32761C8E1A5B002681A0 /* UIColor.swift */; };
+		FBE73DDD1C8E208800DECC4D /* CFBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE73DDC1C8E208800DECC4D /* CFBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		539B32761C8E1A5B002681A0 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5636F9157FF4823C9F2A5FBE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7F49EDA28E70A2AF28C7164C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE73DDC1C8E208800DECC4D /* CFBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +296,7 @@
 			children = (
 				1EF137341C5D3BA4004DD7AE /* UITableViewCellSelection.swift */,
 				539B32761C8E1A5B002681A0 /* UIColor.swift */,
+				FBE73DDC1C8E208800DECC4D /* CFBundle.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -528,6 +531,7 @@
 				1E1E8FB21C5AC64C00FA2DBC /* DataService.swift in Sources */,
 				1E1C69471C5C046200A6337C /* WhoViewController.swift in Sources */,
 				1EF137331C5D28D2004DD7AE /* WhereViewController +MKMapViewDelegate.swift in Sources */,
+				FBE73DDD1C8E208800DECC4D /* CFBundle.swift in Sources */,
 				1E1C69491C5C048300A6337C /* WhereViewController.swift in Sources */,
 				1EF137351C5D3BA4004DD7AE /* UITableViewCellSelection.swift in Sources */,
 				1E1C69451C5C045400A6337C /* WhenViewController.swift in Sources */,
