@@ -19,8 +19,6 @@
 		1E51D5A61C49880D00E6A951 /* NSManchester.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E51D5A41C49880D00E6A951 /* NSManchester.xcdatamodeld */; };
 		1E51D5A81C49880D00E6A951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E51D5A71C49880D00E6A951 /* Assets.xcassets */; };
 		1E51D5AB1C49880D00E6A951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E51D5A91C49880D00E6A951 /* LaunchScreen.storyboard */; };
-		1E51D5B61C49880D00E6A951 /* NSManchesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51D5B51C49880D00E6A951 /* NSManchesterTests.swift */; };
-		1E51D5C11C49880D00E6A951 /* NSManchesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51D5C01C49880D00E6A951 /* NSManchesterUITests.swift */; };
 		1E51D5D11C49888C00E6A951 /* NotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51D5D01C49888C00E6A951 /* NotificationsService.swift */; };
 		1E51D5D31C49889800E6A951 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51D5D21C49889800E6A951 /* NetworkService.swift */; };
 		1E51D5D51C49998500E6A951 /* ParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51D5D41C49998500E6A951 /* ParsingService.swift */; };
@@ -34,23 +32,6 @@
 		539B32771C8E1A5B002681A0 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B32761C8E1A5B002681A0 /* UIColor.swift */; };
 		FBE73DDD1C8E208800DECC4D /* CFBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE73DDC1C8E208800DECC4D /* CFBundle.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1E51D5B21C49880D00E6A951 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E51D5921C49880C00E6A951 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E51D5991C49880C00E6A951;
-			remoteInfo = NSManchester;
-		};
-		1E51D5BD1C49880D00E6A951 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E51D5921C49880C00E6A951 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E51D5991C49880C00E6A951;
-			remoteInfo = NSManchester;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1E1C69441C5C045400A6337C /* WhenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhenViewController.swift; sourceTree = "<group>"; };
@@ -67,12 +48,6 @@
 		1E51D5A71C49880D00E6A951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E51D5AA1C49880D00E6A951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E51D5AC1C49880D00E6A951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E51D5B11C49880D00E6A951 /* NSManchesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSManchesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E51D5B51C49880D00E6A951 /* NSManchesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManchesterTests.swift; sourceTree = "<group>"; };
-		1E51D5B71C49880D00E6A951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E51D5BC1C49880D00E6A951 /* NSManchesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSManchesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E51D5C01C49880D00E6A951 /* NSManchesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManchesterUITests.swift; sourceTree = "<group>"; };
-		1E51D5C21C49880D00E6A951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E51D5D01C49888C00E6A951 /* NotificationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsService.swift; sourceTree = "<group>"; };
 		1E51D5D21C49889800E6A951 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		1E51D5D41C49998500E6A951 /* ParsingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingService.swift; sourceTree = "<group>"; };
@@ -98,20 +73,6 @@
 				1EF1372F1C5D1B1A004DD7AE /* AddressBook.framework in Frameworks */,
 				1E1C69501C5C1CC400A6337C /* MapKit.framework in Frameworks */,
 				32631A1EB6F85C5203CC0DF0 /* Pods.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E51D5AE1C49880D00E6A951 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E51D5B91C49880D00E6A951 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				1E51D59C1C49880C00E6A951 /* NSManchester */,
-				1E51D5B41C49880D00E6A951 /* NSManchesterTests */,
-				1E51D5BF1C49880D00E6A951 /* NSManchesterUITests */,
 				1E51D59B1C49880C00E6A951 /* Products */,
 				49DF63E8772CDF8D5826B32D /* Pods */,
 				ECD8D67FDE1EEE0A305AA8D3 /* Frameworks */,
@@ -242,8 +201,6 @@
 			isa = PBXGroup;
 			children = (
 				1E51D59A1C49880C00E6A951 /* NSManchester.app */,
-				1E51D5B11C49880D00E6A951 /* NSManchesterTests.xctest */,
-				1E51D5BC1C49880D00E6A951 /* NSManchesterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,24 +214,6 @@
 				1E1E8FAE1C5AC1B900FA2DBC /* UI */,
 			);
 			path = NSManchester;
-			sourceTree = "<group>";
-		};
-		1E51D5B41C49880D00E6A951 /* NSManchesterTests */ = {
-			isa = PBXGroup;
-			children = (
-				1E51D5B51C49880D00E6A951 /* NSManchesterTests.swift */,
-				1E51D5B71C49880D00E6A951 /* Info.plist */,
-			);
-			path = NSManchesterTests;
-			sourceTree = "<group>";
-		};
-		1E51D5BF1C49880D00E6A951 /* NSManchesterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1E51D5C01C49880D00E6A951 /* NSManchesterUITests.swift */,
-				1E51D5C21C49880D00E6A951 /* Info.plist */,
-			);
-			path = NSManchesterUITests;
 			sourceTree = "<group>";
 		};
 		1E51D5CE1C49883600E6A951 /* Services */ = {
@@ -349,42 +288,6 @@
 			productReference = 1E51D59A1C49880C00E6A951 /* NSManchester.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1E51D5B01C49880D00E6A951 /* NSManchesterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E51D5C81C49880D00E6A951 /* Build configuration list for PBXNativeTarget "NSManchesterTests" */;
-			buildPhases = (
-				1E51D5AD1C49880D00E6A951 /* Sources */,
-				1E51D5AE1C49880D00E6A951 /* Frameworks */,
-				1E51D5AF1C49880D00E6A951 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1E51D5B31C49880D00E6A951 /* PBXTargetDependency */,
-			);
-			name = NSManchesterTests;
-			productName = NSManchesterTests;
-			productReference = 1E51D5B11C49880D00E6A951 /* NSManchesterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1E51D5BB1C49880D00E6A951 /* NSManchesterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E51D5CB1C49880D00E6A951 /* Build configuration list for PBXNativeTarget "NSManchesterUITests" */;
-			buildPhases = (
-				1E51D5B81C49880D00E6A951 /* Sources */,
-				1E51D5B91C49880D00E6A951 /* Frameworks */,
-				1E51D5BA1C49880D00E6A951 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1E51D5BE1C49880D00E6A951 /* PBXTargetDependency */,
-			);
-			name = NSManchesterUITests;
-			productName = NSManchesterUITests;
-			productReference = 1E51D5BC1C49880D00E6A951 /* NSManchesterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -404,14 +307,6 @@
 							};
 						};
 					};
-					1E51D5B01C49880D00E6A951 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 1E51D5991C49880C00E6A951;
-					};
-					1E51D5BB1C49880D00E6A951 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 1E51D5991C49880C00E6A951;
-					};
 				};
 			};
 			buildConfigurationList = 1E51D5951C49880C00E6A951 /* Build configuration list for PBXProject "NSManchester" */;
@@ -428,8 +323,6 @@
 			projectRoot = "";
 			targets = (
 				1E51D5991C49880C00E6A951 /* NSManchester */,
-				1E51D5B01C49880D00E6A951 /* NSManchesterTests */,
-				1E51D5BB1C49880D00E6A951 /* NSManchesterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -443,20 +336,6 @@
 				1E51D5AB1C49880D00E6A951 /* LaunchScreen.storyboard in Resources */,
 				1E51D5A81C49880D00E6A951 /* Assets.xcassets in Resources */,
 				1E51D5A31C49880C00E6A951 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E51D5AF1C49880D00E6A951 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E51D5BA1C49880D00E6A951 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,36 +413,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E51D5AD1C49880D00E6A951 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E51D5B61C49880D00E6A951 /* NSManchesterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E51D5B81C49880D00E6A951 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E51D5C11C49880D00E6A951 /* NSManchesterUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1E51D5B31C49880D00E6A951 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E51D5991C49880C00E6A951 /* NSManchester */;
-			targetProxy = 1E51D5B21C49880D00E6A951 /* PBXContainerItemProxy */;
-		};
-		1E51D5BE1C49880D00E6A951 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E51D5991C49880C00E6A951 /* NSManchester */;
-			targetProxy = 1E51D5BD1C49880D00E6A951 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1E51D5A11C49880C00E6A951 /* Main.storyboard */ = {
@@ -702,54 +552,6 @@
 			};
 			name = Release;
 		};
-		1E51D5C91C49880D00E6A951 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = NSManchesterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.nsmanchester.NSManchesterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSManchester.app/NSManchester";
-			};
-			name = Debug;
-		};
-		1E51D5CA1C49880D00E6A951 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = NSManchesterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.nsmanchester.NSManchesterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSManchester.app/NSManchester";
-			};
-			name = Release;
-		};
-		1E51D5CC1C49880D00E6A951 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NSManchesterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.nsmanchester.NSManchesterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NSManchester;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		1E51D5CD1C49880D00E6A951 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NSManchesterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.nsmanchester.NSManchesterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NSManchester;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -767,24 +569,6 @@
 			buildConfigurations = (
 				1E51D5C61C49880D00E6A951 /* Debug */,
 				1E51D5C71C49880D00E6A951 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E51D5C81C49880D00E6A951 /* Build configuration list for PBXNativeTarget "NSManchesterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E51D5C91C49880D00E6A951 /* Debug */,
-				1E51D5CA1C49880D00E6A951 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E51D5CB1C49880D00E6A951 /* Build configuration list for PBXNativeTarget "NSManchesterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E51D5CC1C49880D00E6A951 /* Debug */,
-				1E51D5CD1C49880D00E6A951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
